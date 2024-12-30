@@ -1,0 +1,115 @@
+/*  
+    Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wdth,wght@125,300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wdth,wght@125,300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+    CSS - normal 1920px width
+*/
+
+* {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 80%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+}
+
+#domain-name {
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+#line {
+    width: 1px;
+    height: 33px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-inline: 1rem;
+}
+
+#h-style {
+    background-color: orange;
+    width: 96%;
+    height: 50px;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.466);
+}
+
+#lf {
+    display: flex;
+    align-items: center;
+}
+
+#lf span {
+    margin-inline: 0.2rem;
+}
+
+#lf img {
+    width: 20px;
+}
+
+#lf input {
+    border: 0;
+    width: 400px;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Fredoka;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 0.3rem;
+}
+
+#lang select {
+    height: 30px;
+}
+
+#items-in-cart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    transform: translateX(43px) translateY(-13px);
+    font-family: Arial;
+    font-size: 15px;
+    border: 2px solid red;
+    box-shadow: 0 0 1rem red;
+}
+
+#cart img {
+    width: 40px;
+    margin-left: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
